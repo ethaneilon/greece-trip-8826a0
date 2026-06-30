@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<title>Greece · Jul 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Greece">
+<meta name="theme-color" content="#0F3450">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230F3450'/%3E%3Crect x='36' y='20' width='28' height='60' rx='6' fill='%23FAF8F3'/%3E%3Ctext x='50' y='57' font-family='Georgia,serif' font-size='15' fill='%23B5894B' text-anchor='middle'%3EGR%3C/text%3E%3C/svg%3E">
+<style>
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  html,body{margin:0;padding:0;height:100%;}
+  ::-webkit-scrollbar{width:0;height:0;display:none;}
+
+  :root{
+    --serif:Georgia,'Times New Roman',serif;
+    --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;
+    --mono:ui-monospace,Menlo,monospace;
+    --bg:#FAF8F3; --surface:#FFFFFF; --surface-2:#FFFCF5;
+    --border:#ECE6DA; --divider:#F2EDE2; --rule:#E2DCCD;
+    --navy:#0F3450; --navy-2:#13577E; --ink:#1C2A35;
+    --gold:#B5894B; --gold-2:#C9A45C; --gold-soft:#E2C07C; --gold-line:#D7B36A;
+    --muted:#7A8893; --muted-2:#9DAAB4; --muted-3:#8593A0; --slate:#54616C;
+    --advisory-bg:#FBF1DD; --advisory-bd:#F0DEB6; --advisory-h:#B07F25; --advisory-t:#7C6534;
+    --green:#3E7C5F; --green-bg:#E9F2EC;
+    --hero:linear-gradient(150deg,#2C84B4 0%,#13577E 52%,#0E3A57 100%);
+    --hero-fade:linear-gradient(to bottom,rgba(12,42,64,.25) 0%,rgba(12,42,64,0) 32%,rgba(10,32,48,.5) 60%,rgba(8,24,38,.93) 100%);
+    --time:#13577E;
+    --tab-bg:rgba(250,248,243,.93); --tab-bd:#E7E0D2;
+    --shadow:0 1px 2px rgba(15,52,80,.04);
+    --frame:#11212c; --frame-2:#33414c;
+    --page-bg:radial-gradient(circle at 30% 0%, #EEEAE0 0%, #E2DDD2 70%);
+  }
+  [data-theme="dark"]{
+    --bg:#0A1B28; --surface:#10293A; --surface-2:#142F42;
+    --border:rgba(255,255,255,.08); --divider:rgba(255,255,255,.07); --rule:rgba(255,255,255,.1);
+    --navy:#EAF0F4; --navy-2:#6FB1DC; --ink:#EAF0F4;
+    --gold:#E2C07C; --gold-2:#E2C07C; --gold-soft:#E2C07C; --gold-line:rgba(226,192,124,.5);
+    --muted:#8FA3B3; --muted-2:#6E8092; --muted-3:#8FA3B3; --slate:#A9BBC8;
+    --advisory-bg:rgba(226,192,124,.1); --advisory-bd:rgba(226,192,124,.28); --advisory-h:#E2C07C; --advisory-t:#D8C495;
+    --green:#7FCBA3; --green-bg:rgba(127,203,163,.14);
+    --hero:linear-gradient(150deg,#15506F 0%,#0C3A55 52%,#07212F 100%);
+    --hero-fade:linear-gradient(to bottom,rgba(6,16,24,.4) 0%,rgba(6,16,24,.05) 34%,rgba(6,16,24,.6) 60%,rgba(4,12,20,.96) 100%);
+    --time:#6FB1DC;
+    --tab-bg:rgba(10,27,40,.92); --tab-bd:rgba(255,255,255,.08);
+    --shadow:0 1px 2px rgba(0,0,0,.25);
+    --frame:#06121b; --frame-2:#1d2a34;
+    --page-bg:#06121b;
+  }
+
+  body{background:var(--page-bg);font-family:var(--sans);transition:background .3s;}
+  @keyframes gPulse{0%,100%{opacity:1;}50%{opacity:.4;}}
+  @keyframes fade{from{opacity:0;transform:translateY(6px);}to{opacity:1;transform:none;}}
+
+  /* Natural-scroll shell: works hosted in any browser & as an installed PWA */
+  .stage{min-height:100dvh;background:var(--bg);}
+  .app{position:relative;width:100%;max-width:460px;margin:0 auto;background:var(--bg);min-height:100dvh;transition:background .3s;}
+
+  .screen{padding-bottom:calc(94px + env(safe-area-inset-bottom));animation:fade .28s ease;}
+
+  /* floating theme toggle (replaces the fake status bar) */
+  .themetoggle{position:fixed;top:calc(10px + env(safe-area-inset-top));z-index:30;width:38px;height:38px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;
+    left:50%;transform:translateX(192px);
+    background:rgba(255,255,255,.72);border:1px solid rgba(0,0,0,.06);color:var(--navy);box-shadow:0 1px 6px rgba(0,0,0,.14);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);}
+  [data-theme="dark"] .themetoggle{background:rgba(16,41,58,.72);border-color:rgba(255,255,255,.14);color:#E2C07C;}
+  @media(max-width:459px){ .themetoggle{left:auto;right:12px;transform:none;} }
+  .statusbar{height:env(safe-area-inset-top);}
+  .statusbar.onhero{height:env(safe-area-inset-top);}
+
+  h1.title{font-family:var(--serif);font-weight:500;color:var(--navy);margin:0;letter-spacing:-.5px;}
+  .kicker{font-size:11px;font-weight:700;letter-spacing:2.4px;text-transform:uppercase;color:var(--gold);}
+  .eyebrow{font-size:11px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;color:var(--muted-2);}
+  .sect{font-size:12px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--gold);}
+
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:18px;box-shadow:var(--shadow);}
+  .pad16{padding:0 16px;}
+  .row{display:flex;}
+
+  /* day list cards */
+  .daycard{width:100%;text-align:left;background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:15px 16px;cursor:pointer;font:inherit;display:flex;gap:15px;align-items:center;margin-bottom:11px;box-shadow:var(--shadow);transition:transform .12s, box-shadow .12s;}
+  .daycard:active{transform:scale(.985);}
+  .daycard.today{background:linear-gradient(160deg,var(--surface-2),var(--surface));border:1.5px solid var(--gold-line);box-shadow:0 10px 24px -12px rgba(181,137,75,.45);}
+  .dnum{flex:0 0 38px;text-align:center;}
+  .dnum b{font-family:var(--serif);font-size:27px;line-height:1;color:var(--navy);font-weight:500;display:block;}
+  .dnum.gold b{color:var(--gold);}
+  .dnum span{font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--muted-2);margin-top:3px;display:block;}
+  .vline{width:1px;align-self:stretch;background:var(--divider);}
+  .dmeta{flex:1;min-width:0;}
+  .dmeta .dow{font-size:11.5px;font-weight:600;letter-spacing:.4px;color:var(--muted-3);text-transform:uppercase;}
+  .dmeta .dttl{font-family:var(--serif);font-size:18px;color:var(--ink);margin:2px 0 4px;}
+  .dmeta .dsum{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--muted);}
+  .dot{width:5px;height:5px;border-radius:50%;background:var(--gold-2);flex:0 0 auto;}
+  .grouphead{padding:18px 22px 6px;display:flex;align-items:center;gap:10px;}
+  .grouphead .g1{font-size:11px;font-weight:700;letter-spacing:1.8px;text-transform:uppercase;color:var(--gold);}
+  .grouphead .g2{font-size:11px;color:var(--muted-2);}
+  .grouphead .gl{flex:1;height:1px;background:var(--rule);}
+
+  /* hero */
+  .hero{position:relative;height:268px;background:var(--hero);overflow:hidden;}
+  .hero.short{height:236px;}
+  .hero .stripes{position:absolute;inset:0;background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.05) 0 2px,transparent 2px 17px);}
+  .hero .scene{position:absolute;inset:0;width:100%;height:100%;}
+  .hero .scenetint{position:absolute;inset:0;background:transparent;}
+  [data-theme="dark"] .hero .scenetint{background:rgba(6,16,24,.34);}
+  .hero .fade{position:absolute;inset:0;background:var(--hero-fade);}
+  .backbtn{position:absolute;top:calc(48px + env(safe-area-inset-top));left:18px;width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.16);backdrop-filter:blur(8px);border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:4;}
+  .herocap{position:absolute;left:24px;right:24px;bottom:20px;text-shadow:0 1px 14px rgba(0,0,0,.45),0 1px 3px rgba(0,0,0,.3);}
+  .herocap .hk{font-size:11px;font-weight:700;letter-spacing:1.8px;text-transform:uppercase;color:var(--gold-soft);}
+  .herocap h1{font-family:var(--serif);font-size:33px;line-height:1.08;font-weight:500;color:#fff;margin:6px 0 0;}
+  .herocap .hl{display:flex;align-items:center;gap:7px;margin-top:9px;font-size:13px;color:rgba(255,255,255,.85);}
+
+  .advisory{margin:16px 20px 0;display:flex;gap:10px;background:var(--advisory-bg);border:1px solid var(--advisory-bd);border-radius:14px;padding:13px 15px;align-items:flex-start;}
+  .advisory .t{font-size:13px;color:var(--advisory-t);line-height:1.45;}
+  .sunsetline{margin:12px 20px 0;display:flex;align-items:center;gap:9px;font-size:13px;color:var(--muted);}
+  .sunsetline b{display:inline-flex;align-items:center;gap:6px;font-weight:600;color:var(--gold);}
+
+  /* timeline */
+  .tl-item{display:flex;gap:14px;padding:15px 0;border-bottom:1px solid var(--divider);}
+  .tl-item:last-child{border-bottom:none;}
+  .tl-time{flex:0 0 62px;font-family:var(--mono);font-size:12px;font-weight:600;color:var(--time);letter-spacing:-.2px;text-align:right;padding-top:2px;}
+  .tl-body{flex:1;min-width:0;}
+  .tl-title{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .tl-title .nm{font-size:15.5px;font-weight:600;color:var(--ink);line-height:1.3;}
+  .tl-note{margin-top:5px;font-size:13px;line-height:1.5;color:var(--muted);}
+  .badge{display:inline-flex;align-items:center;gap:3px;font-size:9.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--green);background:var(--green-bg);padding:2px 7px;border-radius:20px;}
+  .chips{margin-top:10px;display:flex;flex-wrap:wrap;gap:8px;}
+  .chip{display:inline-flex;align-items:center;gap:6px;font:inherit;font-size:12px;font-weight:600;text-decoration:none;padding:8px 12px;border-radius:11px;cursor:pointer;border:1px solid var(--border);background:var(--surface);color:var(--navy-2);}
+  .chip.gold{color:var(--gold);background:var(--advisory-bg);border-color:var(--advisory-bd);}
+  .chip svg{flex:0 0 auto;}
+  .conf{font-family:var(--mono);font-size:11px;color:var(--muted-2);}
+
+  /* today */
+  .upnext{background:linear-gradient(150deg,#13577E,#0F3450);border-radius:22px;padding:20px;box-shadow:0 18px 36px -16px rgba(15,52,80,.6);}
+  [data-theme="dark"] .upnext{background:linear-gradient(150deg,#15506F,#07212F);border:1px solid rgba(255,255,255,.06);}
+  .upnext .un-top{display:flex;align-items:baseline;justify-content:space-between;}
+  .upnext .un-time{font-family:var(--mono);font-size:13px;font-weight:600;color:var(--gold-soft);letter-spacing:.5px;}
+  .upnext .un-tag{font-size:10px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:#9FD0EC;background:rgba(255,255,255,.1);padding:3px 9px;border-radius:20px;}
+  .upnext h3{font-family:var(--serif);font-size:23px;color:#fff;margin:8px 0 3px;line-height:1.15;font-weight:500;}
+  .upnext .un-note{font-size:13px;color:#B9CEDD;line-height:1.5;}
+  .un-actions{display:flex;gap:9px;margin-top:16px;}
+  .un-actions .primary{flex:1;display:flex;align-items:center;justify-content:center;gap:7px;background:var(--gold-soft);border:none;border-radius:12px;padding:12px;cursor:pointer;font:inherit;font-size:13.5px;font-weight:600;color:#3A2C12;text-decoration:none;}
+  .un-actions .icobtn{flex:0 0 auto;display:flex;align-items:center;justify-content:center;width:48px;background:rgba(255,255,255,.12);border-radius:12px;text-decoration:none;border:none;cursor:pointer;}
+  .countdown{margin:18px 20px 0;background:var(--advisory-bg);border:1px solid var(--advisory-bd);border-radius:16px;padding:14px 16px;display:flex;align-items:center;gap:12px;}
+  .countdown .big{font-family:var(--serif);font-size:30px;color:var(--gold);line-height:1;}
+  .twocol{display:flex;gap:10px;margin:14px 20px 0;}
+  .minicard{flex:1;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:12px 13px;}
+  .minicard .lbl{font-size:10.5px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--muted-2);}
+  .minicard .big{font-family:var(--serif);font-size:22px;color:var(--navy);margin-top:3px;}
+  .ghostbtn{margin:14px 20px 0;width:calc(100% - 40px);display:flex;align-items:center;justify-content:center;gap:7px;background:var(--surface);border:1px solid var(--rule);border-radius:14px;padding:13px;cursor:pointer;font:inherit;font-size:13.5px;font-weight:600;color:var(--navy-2);}
+
+  /* stat strip */
+  .stats{margin:18px 24px 0;display:flex;background:var(--surface);border:1px solid var(--border);border-radius:16px;overflow:hidden;box-shadow:var(--shadow);}
+  .stats .s{flex:1;padding:13px 8px;text-align:center;border-right:1px solid var(--divider);}
+  .stats .s:last-child{border-right:none;}
+  .stats .s b{font-family:var(--serif);font-size:22px;color:var(--navy);display:block;font-weight:500;}
+  .stats .s.gold b{color:var(--gold);}
+  .stats .s span{font-size:10px;letter-spacing:.8px;text-transform:uppercase;color:var(--muted-2);margin-top:1px;display:block;}
+  .todaybtn{margin:14px 24px 0;width:calc(100% - 48px);display:flex;align-items:center;gap:10px;background:linear-gradient(135deg,#C9A45C,#B5894B);border:none;border-radius:14px;padding:13px 16px;cursor:pointer;font:inherit;box-shadow:0 6px 16px -6px rgba(181,137,75,.6);}
+  .todaybtn .pulse{width:8px;height:8px;border-radius:50%;background:#fff;animation:gPulse 2s ease-in-out infinite;}
+  .todaybtn .lbl{flex:1;text-align:left;color:#fff;font-size:14px;font-weight:600;}
+  .todaybtn .sub{color:rgba(255,255,255,.85);font-size:12px;}
+
+  /* bookings / info */
+  .grouptitle{padding:22px 24px 6px;display:flex;align-items:center;gap:9px;}
+  .grouptitle span{font-size:12px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--gold);}
+  .bk{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:16px 17px;margin-bottom:11px;box-shadow:var(--shadow);}
+  .bk .bk-top{display:flex;justify-content:space-between;align-items:center;}
+  .bk .seg{font-size:12px;font-weight:600;color:var(--muted-3);letter-spacing:.3px;}
+  .pill{font-size:10.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;padding:2px 8px;border-radius:20px;}
+  .pill.b{color:var(--green);background:var(--green-bg);}
+  .pill.e{color:var(--muted-3);background:rgba(133,147,160,.14);}
+  .route{display:flex;align-items:center;gap:12px;margin:11px 0 9px;}
+  .route .iata{font-family:var(--serif);font-size:25px;color:var(--navy);}
+  .bk .det{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--divider);padding-top:10px;font-size:12.5px;color:var(--muted);}
+  .bk .ref{font-family:var(--mono);font-size:11px;color:var(--muted-2);margin-top:6px;}
+  .bk .stayname{font-family:var(--serif);font-size:17px;color:var(--ink);}
+  .bk .staysub{font-size:12.5px;color:var(--muted);margin-top:2px;}
+  .listcard{margin:0 16px;background:var(--surface);border:1px solid var(--border);border-radius:16px;overflow:hidden;box-shadow:var(--shadow);}
+  .lrow{display:flex;align-items:center;gap:13px;padding:13px 16px;border-bottom:1px solid var(--divider);text-decoration:none;}
+  .lrow:last-child{border-bottom:none;}
+  .lrow .lr-main{flex:1;min-width:0;}
+  .lrow .lr-t{font-size:14px;font-weight:600;color:var(--ink);}
+  .lrow .lr-s{font-size:12px;color:var(--muted);margin-top:1px;}
+  .lrow .lr-ref{font-family:var(--mono);font-size:11px;color:var(--muted-2);}
+
+  .emergency{margin:20px 16px 0;background:linear-gradient(150deg,#B0463A,#8E372E);border-radius:18px;padding:16px 18px;box-shadow:0 12px 26px -14px rgba(142,55,46,.7);}
+  .emergency .eh{font-size:11px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:rgba(255,255,255,.8);}
+  .emergency .erow{display:flex;gap:10px;margin-top:11px;}
+  .emergency a{flex:1;text-decoration:none;background:rgba(255,255,255,.14);border-radius:12px;padding:11px;text-align:center;}
+  .emergency a b{font-family:var(--serif);font-size:24px;color:#fff;display:block;font-weight:500;}
+  .emergency a span{font-size:11px;color:rgba(255,255,255,.82);margin-top:1px;display:block;}
+  .stay{border-radius:16px;padding:14px 16px;margin-bottom:10px;background:var(--surface);border:1px solid var(--border);}
+  .stay.now{background:var(--surface-2);border:1.5px solid var(--gold-line);}
+  .stay .sname{font-family:var(--serif);font-size:16px;color:var(--ink);}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0 16px;}
+  .infocell{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:13px 14px;}
+  .infocell .lbl{font-size:11px;color:var(--muted-2);}
+  .infocell .val{font-size:14px;font-weight:600;color:var(--ink);margin-top:2px;}
+
+  /* place detail */
+  .pchips{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:16px 16px 0;}
+  .pchips .infocell .lbl{color:var(--muted-2);}
+  .pbox{margin:14px 16px 0;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:15px 17px;}
+  .pbox .lbl{font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--muted-2);}
+  .pbox.bring{background:var(--advisory-bg);border-color:var(--advisory-bd);}
+  .pbox.bring .lbl{color:var(--advisory-h);}
+  .bringitem{display:flex;align-items:center;gap:9px;font-size:13.5px;color:var(--advisory-t);}
+  .mapbtn{margin:14px 16px 0;display:flex;align-items:center;justify-content:center;gap:8px;height:130px;border-radius:16px;background:linear-gradient(135deg,#DCE6EC,#C8D6DF);position:relative;overflow:hidden;border:1px solid #C3D1DA;text-decoration:none;}
+  [data-theme="dark"] .mapbtn{background:linear-gradient(135deg,#1b3344,#16293a);border-color:rgba(255,255,255,.1);}
+  .mapbtn .stripes{position:absolute;inset:0;background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.4) 0 2px,transparent 2px 15px);}
+  [data-theme="dark"] .mapbtn .stripes{background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.06) 0 2px,transparent 2px 15px);}
+  .mapbtn .lab{position:relative;display:flex;align-items:center;gap:6px;font-family:var(--mono);font-size:11px;letter-spacing:.4px;color:#3A5663;background:rgba(255,255,255,.82);padding:8px 13px;border-radius:20px;font-weight:600;}
+  [data-theme="dark"] .mapbtn .lab{color:#cfe0ea;background:rgba(8,20,30,.6);}
+  .twobtns{display:flex;gap:10px;margin:16px 16px 0;}
+  .twobtns a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;border-radius:13px;padding:14px;text-decoration:none;font-size:14px;font-weight:600;}
+  .twobtns a.solid{background:var(--navy-2);color:#fff;}
+  .twobtns a.outline{background:var(--surface);border:1px solid var(--rule);color:var(--navy-2);}
+
+  /* tab bar */
+  .tabbar{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:460px;background:var(--tab-bg);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-top:1px solid var(--tab-bd);display:flex;padding:10px 10px calc(10px + env(safe-area-inset-bottom));z-index:25;}
+  .tab{flex:1;display:flex;flex-direction:column;align-items:center;gap:5px;background:none;border:none;cursor:pointer;font:inherit;color:var(--muted-2);}
+  .tab.active{color:var(--gold);}
+  .tab span{font-size:10px;font-weight:600;letter-spacing:.2px;}
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="app" id="app">
+    <button class="themetoggle" id="themetoggle" onclick="toggleTheme()" aria-label="Toggle light/dark"></button>
+    <div class="screen" id="screen"></div>
+    <nav class="tabbar" id="tabbar"></nav>
+  </div>
+</div>
+
+<script>
+"use strict";
+
+/* ---------- platform-aware maps + tel helpers ---------- */
+var IS_APPLE = /iPad|iPhone|iPod|Macintosh|Mac OS X/.test(navigator.userAgent);
+function mapsUrl(q){
+  var e = encodeURIComponent(q);
+  return IS_APPLE ? "https://maps.apple.com/?q=" + e
+                  : "https://www.google.com/maps/search/?api=1&query=" + e;
+}
+function telHref(p){ return "tel:" + p.replace(/[^+\d]/g,""); }
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+/* ---------- icons ---------- */
+var I = {
+  chevron:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>',
+  chevronSm:'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>',
+  back:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 6l-6 6 6 6"/></svg>',
+  pin:'<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.4"/></svg>',
+  pinSm:'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.4"/></svg>',
+  phone:'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 5 5L16 14l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>',
+  check:'<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg>',
+  sun:'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M17 18a5 5 0 0 0-10 0"/><path d="M12 9V2M4.2 10.2l1.4 1.4M18.4 11.6l1.4-1.4M2 18h3M19 18h3M12 9l-3 3M12 9l3 3"/></svg>',
+  heat:'<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M3 12h2M19 12h2M5.5 5.5l1.4 1.4M17.1 17.1l1.4 1.4M18.5 5.5l-1.4 1.4M6.9 17.1l-1.4 1.4" stroke-linecap="round"/></svg>',
+  moon:'<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>',
+  sunToggle:'<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.4M12 19.6V22M2 12h2.4M19.6 12H22M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7"/></svg>',
+  camera:'<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.85)" stroke-width="2"><rect x="3" y="5" width="18" height="15" rx="2"/><circle cx="8.5" cy="10.5" r="1.6"/><path d="M21 16l-5-4-6 6"/></svg>',
+  plane:'<svg width="34" height="14" viewBox="0 0 40 14" fill="none" stroke="#C9A45C" stroke-width="1.6"><path d="M1 7h32" stroke-linecap="round"/><path d="M28 2l6 5-6 5" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  tabItin:'<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r="1.3" fill="currentColor" stroke="none"/><circle cx="4" cy="12" r="1.3" fill="currentColor" stroke="none"/><circle cx="4" cy="18" r="1.3" fill="currentColor" stroke="none"/></svg>',
+  tabToday:'<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.4M12 19.6V22M2 12h2.4M19.6 12H22M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7"/></svg>',
+  tabBook:'<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v1.5a1.7 1.7 0 0 0 0 5V16a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1.5a1.7 1.7 0 0 0 0-5z"/><path d="M14 6.5v11" stroke-dasharray="2 2.4"/></svg>',
+  tabInfo:'<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9.2"/><path d="M12 11v5.2"/><circle cx="12" cy="7.6" r="1.25" fill="currentColor" stroke="none"/></svg>',
+  flights:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></svg>',
+  bed:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V5l9-3 9 3v16"/><path d="M9 21v-6h6v6"/></svg>',
+  car:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17H3v-5l2-5h11l3 5h2v5h-2"/><circle cx="7.5" cy="17.5" r="1.8"/><circle cx="16.5" cy="17.5" r="1.8"/></svg>',
+  mail:'<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>'
+};
+
+/* ---------- hero scene illustrations (vector, offline, ~1-2KB each) ---------- */
+var SV = '<svg class="scene" viewBox="0 0 390 268" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">';
+var SCENES = {
+  // Athens — Acropolis & Parthenon
+  acropolis: SV
+    + '<defs><linearGradient id="acSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3E94C2"/><stop offset="55%" stop-color="#1C6791"/><stop offset="100%" stop-color="#0C3550"/></linearGradient></defs>'
+    + '<rect width="390" height="268" fill="url(#acSky)"/>'
+    + '<circle cx="332" cy="50" r="23" fill="#F4D89C" opacity=".82"/>'
+    + '<path d="M0 150 Q110 132 230 146 T390 140 V268 H0Z" fill="#0C3550" opacity=".5"/>'
+    + '<path d="M158 150 L188 132 L300 132 L324 152 Z" fill="#1A5A7C"/>'
+    + '<rect x="200" y="116" width="96" height="16" fill="#D9C8A1"/><rect x="202" y="112" width="92" height="5" fill="#EAE0C8"/>'
+    + '<g fill="#ECE3CC"><rect x="208" y="88" width="8" height="28"/><rect x="222" y="88" width="8" height="28"/><rect x="236" y="88" width="8" height="28"/><rect x="250" y="88" width="8" height="28"/><rect x="264" y="88" width="8" height="28"/><rect x="278" y="88" width="8" height="28"/></g>'
+    + '<path d="M200 88 L248 72 L296 88 Z" fill="#EAE0C8"/>'
+    + '<path d="M0 158 Q120 149 250 160 T390 156 V268 H0Z" fill="#092a40"/>'
+    + '</svg>',
+  // Santorini — Oia: one connected white village stepping up the cliff, blue domes
+  oia: SV
+    + '<defs><linearGradient id="oiaSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5BB0DA"/><stop offset="60%" stop-color="#2C84B4"/><stop offset="100%" stop-color="#0E3A57"/></linearGradient></defs>'
+    + '<rect width="390" height="268" fill="url(#oiaSky)"/>'
+    + '<circle cx="322" cy="46" r="18" fill="#F6E0AE" opacity=".68"/>'
+    + '<path d="M0 150 H390 V268 H0Z" fill="#185F88"/>'
+    + '<path d="M0 150 H390 V184 Q300 192 180 180 T0 186Z" fill="#2C84B4" opacity=".35"/>'
+    + '<path d="M244 150 Q286 102 330 108 Q366 113 390 120 V150 Z" fill="#15506F"/>'
+    + '<path d="M278 149 V132 H296 V123 H314 V114 H336 V105 H360 V149 Z" fill="#F4F1E9"/>'
+    + '<g stroke="#DCD3C1" stroke-width="1.3"><path d="M296 133 V149"/><path d="M314 124 V149"/><path d="M336 115 V149"/></g>'
+    + '<g fill="#23496B"><rect x="284" y="138" width="4" height="5"/><rect x="302" y="130" width="4" height="5"/><rect x="321" y="121" width="4" height="5"/><rect x="345" y="120" width="4" height="5"/></g>'
+    + '<rect x="340" y="97" width="18" height="9" fill="#F4F1E9"/><path d="M340 97 a9 9 0 0 1 18 0 Z" fill="#2E6FB0"/>'
+    + '<rect x="347" y="89" width="2" height="7" fill="#C9A45C"/><rect x="344.5" y="91" width="7" height="2" fill="#C9A45C"/>'
+    + '<rect x="318" y="108" width="13" height="6" fill="#F4F1E9"/><path d="M318 108 a6.5 6.5 0 0 1 13 0 Z" fill="#3A7BBC"/>'
+    + '</svg>',
+  // Santorini — caldera headland & sea
+  caldera: SV
+    + '<defs><linearGradient id="caSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#54A6D2"/><stop offset="60%" stop-color="#2C84B4"/><stop offset="100%" stop-color="#0E3A57"/></linearGradient></defs>'
+    + '<rect width="390" height="268" fill="url(#caSky)"/>'
+    + '<circle cx="330" cy="48" r="21" fill="#F4D89C" opacity=".78"/>'
+    + '<path d="M0 150 H390 V268 H0Z" fill="#185F88"/>'
+    + '<path d="M0 150 H390 V178 Q300 186 170 175 T0 180Z" fill="#2C84B4" opacity=".32"/>'
+    + '<path d="M252 150 Q298 108 344 122 Q372 130 390 126 V150 Z" fill="#163F5A"/>'
+    + '<path d="M286 150 Q320 124 360 132 Q378 136 390 134 V150 Z" fill="#0F3450" opacity=".7"/>'
+    + '<g fill="#EFE9DB"><rect x="300" y="126" width="12" height="9" rx="1"/><rect x="316" y="121" width="12" height="9" rx="1"/><rect x="332" y="126" width="12" height="9" rx="1"/></g>'
+    + '</svg>',
+  // Santorini — Ammoudi Bay sunset: big soft sun over open bay, two headlands
+  ammoudi: SV
+    + '<defs><linearGradient id="amSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F1B45F"/><stop offset="45%" stop-color="#DD835A"/><stop offset="100%" stop-color="#7E4159"/></linearGradient></defs>'
+    + '<rect width="390" height="268" fill="url(#amSky)"/>'
+    + '<circle cx="200" cy="92" r="48" fill="#FBE6B4" opacity=".2"/>'
+    + '<circle cx="200" cy="92" r="35" fill="#FCEABC" opacity=".95"/>'
+    + '<path d="M0 150 H390 V268 H0Z" fill="#74384F"/>'
+    + '<path d="M0 150 Q44 108 98 150 Z" fill="#45202E"/>'
+    + '<path d="M390 150 Q346 106 292 150 Z" fill="#45202E"/>'
+    + '<path d="M188 150 L212 150 L206 196 L194 196 Z" fill="#F7D49A" opacity=".18"/>'
+    + '</svg>',
+  // Mykonos — Aegean ferry crossing
+  ferry: SV
+    + '<defs><linearGradient id="feSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#62B4DC"/><stop offset="60%" stop-color="#2C84B4"/><stop offset="100%" stop-color="#0E3A57"/></linearGradient></defs>'
+    + '<rect width="390" height="268" fill="url(#feSky)"/>'
+    + '<circle cx="330" cy="48" r="21" fill="#F6E0AE" opacity=".72"/>'
+    + '<path d="M0 150 H390 V268 H0Z" fill="#185F88"/>'
+    + '<path d="M16 150 q28 -12 64 0 Z" fill="#0E3A57" opacity=".4"/><path d="M298 150 q26 -11 60 0 Z" fill="#0E3A57" opacity=".4"/>'
+    + '<g fill="#F7F3EA"><path d="M232 148 h74 l-12 14 h-50Z"/><rect x="248" y="132" width="44" height="16" rx="2"/></g>'
+    + '<g fill="#2C84B4"><rect x="254" y="136" width="6" height="8"/><rect x="266" y="136" width="6" height="8"/><rect x="278" y="136" width="6" height="8"/></g>'
+    + '<g stroke="#FFFFFF" stroke-width="2" opacity=".16" fill="none"><path d="M0 198 Q100 190 200 198 T390 198"/><path d="M0 224 Q100 216 200 224 T390 224"/></g>'
+    + '</svg>',
+  // Delos — balanced classical ruin (colonnade + lone column + broken stub)
+  delos: SV
+    + '<defs><linearGradient id="deSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7FB9D8"/><stop offset="55%" stop-color="#4E92B8"/><stop offset="100%" stop-color="#235e7a"/></linearGradient></defs>'
+    + '<rect width="390" height="268" fill="url(#deSky)"/>'
+    + '<circle cx="116" cy="48" r="20" fill="#F4D89C" opacity=".66"/>'
+    + '<path d="M0 152 Q120 136 250 150 T390 144 V268 H0Z" fill="#A98C52"/>'
+    + '<path d="M0 170 Q140 156 280 172 T390 168 V268 H0Z" fill="#856A39"/>'
+    + '<rect x="250" y="146" width="92" height="5" fill="#C9B481"/>'
+    + '<rect x="252" y="90" width="58" height="10" fill="#DDD0B2"/>'
+    + '<g fill="#ECE3CC"><rect x="258" y="100" width="12" height="46"/><rect x="276" y="100" width="12" height="46"/><rect x="294" y="100" width="12" height="46"/></g>'
+    + '<rect x="320" y="114" width="12" height="32" fill="#E4D8BB"/><rect x="318" y="110" width="16" height="5" fill="#DDD0B2"/>'
+    + '<rect x="300" y="138" width="14" height="8" fill="#D7C9AA"/>'
+    + '</svg>',
+  // Mykonos — private catamaran sail
+  sail: SV
+    + '<defs><linearGradient id="saSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5FB2DB"/><stop offset="60%" stop-color="#2C84B4"/><stop offset="100%" stop-color="#0E3A57"/></linearGradient></defs>'
+    + '<rect width="390" height="268" fill="url(#saSky)"/>'
+    + '<circle cx="330" cy="48" r="20" fill="#F6E0AE" opacity=".7"/>'
+    + '<path d="M0 152 H390 V268 H0Z" fill="#1E78A6"/>'
+    + '<path d="M252 72 L252 150 L216 150 Z" fill="#F7F3EA"/><path d="M260 88 L260 150 L302 150 Z" fill="#EAE3D4"/>'
+    + '<rect x="251" y="68" width="3" height="84" fill="#0E3A57"/>'
+    + '<path d="M212 150 h96 l-12 14 h-72Z" fill="#13577E"/>'
+    + '<g stroke="#FFFFFF" stroke-width="2" opacity=".15" fill="none"><path d="M0 204 Q100 196 200 204 T390 204"/><path d="M0 230 Q100 222 200 230 T390 230"/></g>'
+    + '</svg>',
+  // Departure — clean airliner side profile + contrail
+  plane: SV
+    + '<defs><linearGradient id="plSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C6E9C"/><stop offset="50%" stop-color="#1B4E74"/><stop offset="100%" stop-color="#0C2A41"/></linearGradient></defs>'
+    + '<rect width="390" height="268" fill="url(#plSky)"/>'
+    + '<circle cx="332" cy="50" r="21" fill="#F3D89A" opacity=".72"/>'
+    + '<g fill="#FFFFFF" opacity=".09"><ellipse cx="74" cy="134" rx="56" ry="14"/><ellipse cx="308" cy="150" rx="64" ry="16"/></g>'
+    + '<path d="M70 124 Q150 108 246 116" fill="none" stroke="#C9A45C" stroke-width="2.4" stroke-dasharray="4 9" opacity=".5"/>'
+    + '<g transform="translate(150 104) rotate(-7) scale(.7)">'
+    + '<path d="M-96 -1 L-116 -26 L-78 2 Z" fill="#D9C8A1"/>'
+    + '<path d="M8 9 L-34 47 L20 15 L66 9 Z" fill="#CBB988"/>'
+    + '<path d="M-96 6 Q-98 -4 -72 -5 L96 -7 Q128 -6 138 6 Q128 18 96 17 L-72 15 Q-98 16 -96 6 Z" fill="#EFE7D2"/>'
+    + '<circle cx="108" cy="4" r="2.6" fill="#A6BDCB"/><circle cx="86" cy="4" r="2.5" fill="#A6BDCB"/><circle cx="64" cy="5" r="2.4" fill="#A6BDCB"/><circle cx="42" cy="6" r="2.3" fill="#A6BDCB"/>'
+    + '</g>'
+    + '</svg>'
+};
+var DAY_SCENE = {0:"plane",1:"acropolis",2:"acropolis",3:"oia",4:"caldera",5:"ammoudi",6:"ferry",7:"delos",8:"sail",9:"plane"};
+function heroScene(key){ return SCENES[key] || SCENES.oia; }
+
+/* ---------- trip data ---------- */
+var TRIP = { year:2026, month:6 /*July*/, startDate:2, endDate:11, name:"Greece" };
+
+var DAYS = [
+  { n:0, city:"Departure", group:"Getting There", dow:"Thursday", sd:"Thu · Jul 2", dateNum:2, title:"Depart for Greece",
+    loc:"JFK → Athens", locMap:"John F Kennedy International Airport",
+    hero:"Overnight flight · JFK to Athens", kicker:"Getting There · Thursday, July 2",
+    marquee:"AA 334 · JFK → Athens, overnight", advisory:"Overnight flight — set your watch +7 hrs to Athens time and try to sleep after dinner.", sunset:null,
+    items:[
+      {time:"Afternoon", title:"Head to JFK · Terminal 8", note:"American Airlines international business. Aim to be airside ~2 hours before departure.", map:"JFK Terminal 8 American Airlines"},
+      {time:"5:20p", title:"AA 334 · JFK → Athens", note:"Business class, seats 8A / 9A. Nonstop, ~9h40m overnight.", confirmed:true, conf:"JUORFI / MTRFER", map:"John F Kennedy International Airport"},
+      {time:"Onboard", title:"Dinner & sleep", note:"Eat, then rest — you land mid-morning Athens time."},
+      {time:"10:00a +1", title:"Arrive Athens (ATH)", note:"Friday Jul 3. Welcome Wings VIP meets you at the gate — continues on Day 1.", confirmed:true, map:"Athens International Airport"}
+    ]},
+  { n:1, city:"Athens", group:"Athens", dow:"Friday", sd:"Fri · Jul 3", dateNum:3, title:"Arrive Athens",
+    loc:"Conrad Athens · Ilisia", locMap:"Conrad Athens The Ilisian",
+    hero:"Acropolis & Plaka rooftops, Athens", kicker:"Day 1 of 9 · Friday, July 3",
+    marquee:"Dinner at Strofi · Parthenon view", advisory:null, sunset:null,
+    items:[
+      {time:"10:00a", title:"Land at ATH", note:"Welcome Wings VIP meets you at the gate.", confirmed:true, map:"Athens International Airport"},
+      {time:"10:15a", title:"Blacklane to Conrad Athens", note:"Arrive The Ilisian ~10:51am.", confirmed:true, map:"Conrad Athens The Ilisian"},
+      {time:"Late AM", title:"Brunch in Kolonaki", note:"Da Capo or Café Boheme. Drop bags first.", map:"Kolonaki Square Athens"},
+      {time:"PM", title:"Kolonaki & Voukourestiou", note:"Wander the square and shops. Nap 4–6pm.", map:"Voukourestiou Street Athens"},
+      {time:"3:00p", title:"Official check-in"},
+      {time:"6:30p", title:"Cab to Strofi", note:"Makrigianni, ~15–20 min.", map:"Strofi Restaurant Athens"},
+      {time:"7:00p", title:"Dinner · Strofi", note:"Terrace table, Parthenon view. Reconfirm by email Thu Jul 2.", confirmed:true, map:"Strofi Restaurant Athens", phone:"+302109214130"}
+    ]},
+  { n:2, city:"Athens", group:"Athens", dow:"Saturday", sd:"Sat · Jul 4", dateNum:4, title:"Athens Deep Dive",
+    loc:"Conrad Athens · Ilisia", locMap:"Conrad Athens The Ilisian",
+    hero:"Parthenon at first light, Acropolis", kicker:"Day 2 of 9 · Saturday, July 4",
+    marquee:"Acropolis early-entry · Spondi", advisory:"Athens 95°F+. Keep outdoors before 10am / after 6pm.", sunset:null,
+    items:[
+      {time:"7:15a", title:"Cab to the Acropolis", note:"~15 min. Tickets pre-paid — no cash needed.", map:"Acropolis of Athens"},
+      {time:"7:30a", title:"Meet at main entrance", note:"Opposite the canteen — orange “Athens Walking Tours” sign.", map:"Acropolis main entrance Athens"},
+      {time:"7:45a", title:"Early-entry Acropolis & Museum", note:"3.5-hr small-group tour. Ref AWT2.L7155C6Z9W.", confirmed:true, map:"Acropolis of Athens"},
+      {time:"~11:15a", title:"Tour ends at Acropolis Museum", map:"Acropolis Museum Athens"},
+      {time:"Lunch", title:"Dioskouri, Thissio", note:"Acropolis view, 10–15 min walk.", map:"Dioskouroi Restaurant Thissio Athens"},
+      {time:"PM", title:"Anafiotika, Plaka & Monastiraki", note:"Old lanes and the flea market.", map:"Anafiotika Plaka Athens"},
+      {time:"3:00p", title:"Back to Conrad", note:"Pool + rest through peak heat.", map:"Conrad Athens The Ilisian"},
+      {time:"Sunset", title:"Walk to Lycabettus Hill", map:"Lycabettus Hill Athens"},
+      {time:"7:30p", title:"Dinner · Spondi", note:"Terrace, anniversary noted. Two Michelin stars. ~25 min cab.", confirmed:true, map:"Spondi Restaurant Athens", phone:"+302107564021"}
+    ]},
+  { n:3, city:"Santorini", group:"Santorini", dow:"Sunday", sd:"Sun · Jul 5", dateNum:5, title:"Athens → Santorini",
+    loc:"Canaves Oia Suites", locMap:"Canaves Oia Suites Santorini",
+    hero:"Caldera approach, Oia, Santorini", kicker:"Day 3 of 9 · Sunday, July 5",
+    marquee:"Fly south · Ambrosia at sunset", advisory:null, sunset:"8:48pm",
+    items:[
+      {time:"10:00a", title:"Check out Conrad", map:"Conrad Athens The Ilisian"},
+      {time:"10:15a", title:"Blacklane to ATH", note:"Arrive ~10:46am.", confirmed:true, map:"Athens International Airport"},
+      {time:"11:30a", title:"Welcome Wings VIP departure", note:"Escort at ATH. Ref VIP-08270-ATH.", confirmed:true, map:"Athens International Airport"},
+      {time:"12:50p", title:"Sky Express GQ 346", note:"ATH → Santorini (JTR).", confirmed:true, map:"Santorini Airport JTR"},
+      {time:"1:45p", title:"Land Santorini", note:"Canaves arranges pickup.", map:"Santorini Airport JTR"},
+      {time:"3:00p", title:"Check in · Canaves Oia", note:"Executive Suite — cave pool, terrace, Assyrtiko.", confirmed:true, map:"Canaves Oia Suites Santorini"},
+      {time:"8:15p", title:"Dinner · Ambrosia", note:"Terrace table. Sunset ~8:48pm mid-dinner — the trip’s anchor.", confirmed:true, map:"Ambrosia Restaurant Oia Santorini"}
+    ]},
+  { n:4, city:"Santorini", group:"Santorini", dow:"Monday", sd:"Mon · Jul 6", dateNum:6, title:"Fira-to-Oia Hike",
+    loc:"Canaves Oia Suites", locMap:"Canaves Oia Suites Santorini",
+    hero:"Caldera path · Imerovigli → Oia", kicker:"Day 4 of 9 · Monday, July 6",
+    marquee:"Caldera path · Imerovigli → Oia", advisory:"Mid-90s°F. The final uphill peaks ~11am — carry 2L+ water each.", sunset:"8:40pm",
+    items:[
+      {time:"8:00a", title:"Santo Luxury Escape pickup", note:"Mercedes A/C from Canaves to the Fira trailhead. Bring 2L+ water each, electrolytes, a sun shirt and a wide-brim hat.", confirmed:true, conf:"Order #25141", map:"Fira Santorini", phone:"+306978740977", placeId:"hike"},
+      {time:"~12:00p", title:"Hike ends in Oia", note:"Walk back to Canaves — shower, cave pool.", map:"Oia Santorini"},
+      {time:"~1:00p", title:"Lunch · Roka", note:"Oia, courtyard shade.", map:"Roka Restaurant Oia Santorini"},
+      {time:"2–5p", title:"Pool & nap", note:"Peak-heat window. Optional Canaves spa."},
+      {time:"Sundowner", title:"Lycabettus Bar", note:"Oia clifftop drink.", map:"Lycabettus Bar Oia Santorini"},
+      {time:"Evening", title:"Casual Firostefani taverna", note:"Argo or Aktaion. Lolita’s Gelato on the walk back.", map:"Firostefani Santorini"}
+    ]},
+  { n:5, city:"Santorini", group:"Santorini", dow:"Tuesday", sd:"Tue · Jul 7", dateNum:7, title:"Beach, Wine & Farewell",
+    loc:"Canaves Oia Suites", locMap:"Canaves Oia Suites Santorini",
+    hero:"Ammoudi Bay at sunset, Santorini", kicker:"Day 5 of 9 · Tuesday, July 7",
+    marquee:"Santo Wines · Ammoudi sunset", advisory:"Mid-90s°F on the island today.", sunset:"8:40pm",
+    items:[
+      {time:"AM", title:"Perivolos Beach", note:"Taxi ~25 min. Sunbeds at Seaside by Notos.", map:"Perivolos Beach Santorini"},
+      {time:"~12:45p", title:"Taxi to Vlychada", map:"Vlychada Santorini"},
+      {time:"1:00p", title:"Lunch · To Psaraki", note:"Vlychada Marina, harbor-view table.", confirmed:true, map:"To Psaraki Vlychada Santorini"},
+      {time:"~3:00p", title:"Taxi to Pyrgos", map:"Pyrgos Santorini"},
+      {time:"3:45p", title:"Arrive Santo Wines", note:"10–15 min early per their policy.", map:"Santo Wines Pyrgos Santorini"},
+      {time:"4:00p", title:"Santo Wines tasting", note:"Tour + 4-wine flight + charcuterie. Res. #178033316981.", confirmed:true, map:"Santo Wines Pyrgos Santorini", phone:"+302286022596"},
+      {time:"~5:30p", title:"Back to Oia", note:"Freshen up, light-pack for the ferry.", map:"Oia Santorini"},
+      {time:"8:00p", title:"Descend 286 Ammoudi stairs", note:"~15–20 min down. Sunset ~8:40pm.", map:"Ammoudi Bay Oia Santorini"},
+      {time:"8:30p", title:"Dinner · Sunset Ammoudi", note:"Water’s edge by Paraskevas. Taxi back up.", confirmed:true, map:"Sunset Ammoudi Bay Restaurant Oia"}
+    ]},
+  { n:6, city:"Mykonos", group:"Mykonos", dow:"Wednesday", sd:"Wed · Jul 8", dateNum:8, title:"Ferry to Mykonos",
+    loc:"Myconian Villa · Elia Beach", locMap:"Myconian Villa Collection Elia Beach Mykonos",
+    hero:"Aegean crossing to Mykonos", kicker:"Day 6 of 9 · Wednesday, July 8",
+    marquee:"SeaJets crossing · Hippie Fish", advisory:null, sunset:"8:42pm",
+    items:[
+      {time:"11:00a", title:"Check out Canaves", note:"Transfer to Athinios port — leave by 11:45am.", map:"Canaves Oia Suites Santorini"},
+      {time:"1:15p", title:"SeaJets ferry to Mykonos", note:"JTR → JMK, ~2.5 hrs. Ref 1112QNWQI.", confirmed:true, map:"Athinios Port Santorini"},
+      {time:"~3:45p", title:"Arrive Mykonos New Port", note:"Myconian mini-van at arrivals exit (sign with hotel name).", confirmed:true, map:"Mykonos New Port"},
+      {time:"Late PM", title:"Settle in at Myconian Villa", note:"Outdoor jacuzzi, pool.", map:"Myconian Villa Collection Elia Beach Mykonos"},
+      {time:"~7:15p", title:"Taxi to Agios Ioannis", note:"~25–30 min cross-island.", map:"Agios Ioannis Beach Mykonos"},
+      {time:"8:00p", title:"Dinner · Hippie Fish", note:"Sunset terrace, anniversary logged. Sunset ~8:42pm over Delos.", confirmed:true, map:"Hippie Fish Mykonos Agios Ioannis"}
+    ]},
+  { n:7, city:"Mykonos", group:"Mykonos", dow:"Thursday", sd:"Thu · Jul 9", dateNum:9, title:"Delos & Chora",
+    loc:"Myconian Villa · Elia Beach", locMap:"Myconian Villa Collection Elia Beach Mykonos",
+    hero:"Ancient Delos ruins, Cyclades", kicker:"Day 7 of 9 · Thursday, July 9",
+    marquee:"Private Delos tour · M-eating", advisory:"Noon sun on Delos is brutal — skip Mt Kynthos.", sunset:null,
+    items:[
+      {time:"AM", title:"Slow morning", note:"Sleep in. Breakfast, jacuzzi, pool."},
+      {time:"10:30a", title:"Taxi to Mykonos Old Port", note:"~30 min.", map:"Mykonos Old Port"},
+      {time:"11:30a", title:"Ferry to Delos", note:"~30 min. €25/pp round-trip at the booth.", map:"Mykonos Old Port"},
+      {time:"~12:00p", title:"Arrive Delos", note:"€20/pp entry. Delos Museum first (A/C primer).", map:"Delos Island"},
+      {time:"1:00p", title:"Private tour with Antonis", note:"Meet at the museum entrance — he holds a sign with your name. 2 hrs.", confirmed:true, map:"Delos Archaeological Museum", phone:"+306936606640"},
+      {time:"3:00p", title:"Return ferry", note:"Board immediately, same round-trip ticket.", confirmed:true, map:"Delos Island"},
+      {time:"PM", title:"Chora · Little Venice", note:"Kato Mili windmills, shops, golden-hour drink.", map:"Little Venice Mykonos"},
+      {time:"7:30p", title:"Dinner · M-eating", note:"Kalogera 10, courtyard. Walkable from Little Venice.", confirmed:true, map:"M-eating Restaurant Mykonos", phone:"+302289078550"}
+    ]},
+  { n:8, city:"Athens", group:"Athens · Home", dow:"Friday", sd:"Fri · Jul 10", dateNum:10, title:"Sail, then Athens",
+    loc:"Hotel Grande Bretagne · Syntagma", locMap:"Hotel Grande Bretagne Athens",
+    hero:"South-coast sail, Mykonos", kicker:"Day 8 of 9 · Friday, July 10",
+    marquee:"Private catamaran · GB Roof Garden", advisory:"No late night — 6:59am checkout tomorrow.", sunset:"8:48pm",
+    items:[
+      {time:"8:30a", title:"Mykonos Dolphin pickup", note:"Driver at Myconian Villa. Day-of: Stefanos +30 694 063 6156.", map:"Myconian Villa Collection Elia Beach Mykonos", phone:"+306940636156"},
+      {time:"9:00a", title:"Private morning catamaran", note:"Lagoon 42, South Beaches. €1,300 balance due today.", confirmed:true, map:"Mykonos New Port"},
+      {time:"11:00a", title:"Hotel checkout", note:"Bags held at the desk.", map:"Myconian Villa Collection Elia Beach Mykonos"},
+      {time:"~2:00p", title:"Sail returns", note:"Van back to Myconian Villa; retrieve bags."},
+      {time:"3:00p", title:"Mini-van to JMK", note:"Arrive 3:20pm.", confirmed:true, map:"Mykonos Airport JMK"},
+      {time:"5:45p", title:"Aegean A3 379", note:"JMK → ATH, business 2C/2A.", confirmed:true, map:"Mykonos Airport JMK"},
+      {time:"6:25p", title:"Blacklane to Grande Bretagne", note:"Arrive Syntagma ~7:01pm.", confirmed:true, map:"Hotel Grande Bretagne Athens"},
+      {time:"8:30p", title:"Dinner · GB Roof Garden", note:"Smart-casual, closed shoes; 20-min no-show rule.", confirmed:true, map:"GB Roof Garden Athens", phone:"+302103330766"}
+    ]},
+  { n:9, city:"Departure", group:"Athens · Home", dow:"Saturday", sd:"Sat · Jul 11", dateNum:11, title:"Fly Home",
+    loc:"Athens → JFK", locMap:"Athens International Airport",
+    hero:"Departure · Athens to JFK", kicker:"Day 9 of 9 · Saturday, July 11",
+    marquee:"Delta 203 · Athens to JFK", advisory:"Zero slack: 6:59am checkout, 7:00am car, 10:05am wheels up.", sunset:null,
+    items:[
+      {time:"6:00a", title:"Wake", note:"Room-service coffee & pastry."},
+      {time:"6:59a", title:"Check out", map:"Hotel Grande Bretagne Athens"},
+      {time:"7:00a", title:"Blacklane to ATH", note:"Arrive 7:38am.", confirmed:true, map:"Athens International Airport"},
+      {time:"8:00a", title:"Welcome Wings VIP", note:"Curbside at departures.", confirmed:true, map:"Athens International Airport"},
+      {time:"10:05a", title:"Delta 203 home", note:"ATH → JFK, business. Arrive JFK 2:16pm.", confirmed:true, map:"Athens International Airport"}
+    ]}
+];
+
+var GROUPS = [
+  { label:"Getting There", range:"Thu · Jul 2", days:[0] },
+  { label:"Athens", range:"Days 1–2", days:[1,2] },
+  { label:"Santorini", range:"Days 3–5", days:[3,4,5] },
+  { label:"Mykonos", range:"Days 6–7", days:[6,7] },
+  { label:"Athens · Home", range:"Days 8–9", days:[8,9] }
+];
+
+var PLACES = {
+  hike:{
+    kicker:"Santo Luxury Escape", title:"Fira-to-Oia Private Hike",
+    confirmed:true, conf:"Order #25141",
+    facts:[["When","Mon Jul 6 · 8:00am"],["Duration","4 hours · private"],["Party","2 guests"],["Paid","€300 · in full"]],
+    meetingLabel:"Meeting point", meeting:"Canaves Oia — main reception",
+    meetingNote:"Mercedes A/C round-trip to the Fira trailhead; licensed guide, water & snacks included.",
+    bring:["2L+ water per person","Electrolytes","Sun shirt","Wide-brim hat"],
+    bringNote:"The final Imerovigli → Oia uphill hits peak heat ~11am.",
+    map:"Fira Santorini", mapLabel:"Fira → Imerovigli → Oia",
+    phone:"+306978740977", email:"info@santoluxuryescape.com"
+  }
+};
+
+var FLIGHTS = [
+  { seg:"AA 334 · Thu Jul 2", cls:"Business", clsType:"b", from:"JFK", to:"ATH", det:"5:20pm → 10:00am +1 · Seats 8A/9A", ref:"JUORFI / MTRFER" },
+  { seg:"Sky Express GQ 346 · Sun Jul 5", cls:"Economy", clsType:"e", from:"ATH", to:"JTR", det:"12:50pm → 1:45pm · Seats 3A/3B", ref:"VK1NG8" },
+  { seg:"SeaJets ferry · Wed Jul 8", cls:"Ferry", clsType:"e", from:"JTR", to:"JMK", det:"1:15pm departure · ~2.5 hrs", ref:"1112QNWQI" },
+  { seg:"Aegean A3 379 · Fri Jul 10", cls:"Business", clsType:"b", from:"JMK", to:"ATH", det:"5:45pm → 6:25pm · Seats 2C/2A", ref:"C6RW6M / UGCKGS" },
+  { seg:"Delta 203 · Sat Jul 11", cls:"Business", clsType:"b", from:"ATH", to:"JFK", det:"10:05am → 2:16pm · Seats 1C/1G", ref:"GG3HVN" }
+];
+var STAYS = [
+  { name:"Conrad Athens The Ilisian", sub:"Athens · Ilisia — King Deluxe + Balcony", dates:"Fri Jul 3 → Sun Jul 5", ref:"3475198412", map:"Conrad Athens The Ilisian" },
+  { name:"Canaves Oia Suites", sub:"Oia, Santorini — Executive Suite, Cave Pool", dates:"Sun Jul 5 → Wed Jul 8", ref:"78762SG010263", map:"Canaves Oia Suites Santorini" },
+  { name:"Myconian Villa Collection", sub:"Elia Beach, Mykonos — King Sea View + Jacuzzi", dates:"Wed Jul 8 → Fri Jul 10", ref:"77388SG001735", map:"Myconian Villa Collection Elia Beach Mykonos" },
+  { name:"Hotel Grande Bretagne", sub:"Athens · Syntagma — Classic King, Courtyard", dates:"Fri Jul 10 → Sat Jul 11", ref:"82522737", map:"Hotel Grande Bretagne Athens" }
+];
+var TRANSFERS = [
+  { t:"Blacklane · ATH → Conrad", s:"Fri Jul 3, 10:15am", ref:"647889447" },
+  { t:"Welcome Wings VIP · Arrival", s:"Fri Jul 3, 10:00am · ATH gate", ref:"VIP-08102" },
+  { t:"Canaves Collection · JTR → Canaves Oia", s:"Sun Jul 5, 1:45pm · arr. 2:15pm · name-sign driver", ref:"+30 22860 71453" },
+  { t:"Canaves Collection · Canaves → Athinios", s:"Wed Jul 8, 11:30am · arr. 12:00pm", ref:"+30 22860 71453" },
+  { t:"Myconian van · Port → Villa", s:"Wed Jul 8, 3:35pm", ref:"76000" },
+  { t:"Blacklane · ATH → Grande Bretagne", s:"Fri Jul 10, 6:25pm", ref:"945214639" },
+  { t:"Welcome Wings VIP · Departure", s:"Sat Jul 11, 8:00am · curbside", ref:"VIP-08103" }
+];
+var CONTACTS = [
+  { t:"Stefanos · Mykonos Dolphin", s:"Cruise day-of · +30 694 063 6156", phone:"+306940636156" },
+  { t:"Antonis · Delos guide", s:"Meet at museum · +30 693 660 6640", phone:"+306936606640" },
+  { t:"Myconian Villa concierge", s:"Transfers & taxis · +30 22890 76000", phone:"+302289076000" }
+];
+var DINING = [
+  { t:"Strofi", ph:"+30 21 0921 4130", phone:"+302109214130" },
+  { t:"Spondi", ph:"+30 210 75 64 021", phone:"+302107564021" },
+  { t:"Santo Wines", ph:"+30 22860 22596", phone:"+302286022596" },
+  { t:"M-eating", ph:"+30 22890 78550", phone:"+302289078550" },
+  { t:"GB Roof Garden", ph:"+30 21 0333 0766", phone:"+302103330766" }
+];
+
+/* ---------- safe storage (localStorage can throw on local files / private mode) ---------- */
+function lsGet(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
+function lsSet(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
+
+/* ---------- state ---------- */
+var state = { screen:"itinerary", day:1, place:null };
+try {
+  var saved = JSON.parse(lsGet("greece_state") || "{}");
+  if (saved.screen) state.screen = saved.screen;
+  if (saved.day) state.day = saved.day;
+} catch(e){}
+var theme = lsGet("greece_theme") || "light";
+try { document.documentElement.setAttribute("data-theme", theme); } catch(e){}
+
+function save(){ lsSet("greece_state", JSON.stringify({screen:state.screen, day:state.day})); }
+function go(screen, opts){ state.screen=screen; if(opts&&opts.day!=null)state.day=opts.day; if(opts&&opts.place)state.place=opts.place; save(); render(); var sc=document.getElementById("screen"); if(sc) sc.scrollTop=0; }
+function toggleTheme(){ theme = theme==="dark"?"light":"dark"; document.documentElement.setAttribute("data-theme",theme); lsSet("greece_theme",theme); render(); }
+window.go=go; window.toggleTheme=toggleTheme;
+
+/* ---------- today logic ---------- */
+function dayByN(n){ for(var i=0;i<DAYS.length;i++){ if(DAYS[i].n===n) return DAYS[i]; } return DAYS[0]; }
+function todayInfo(){
+  var now = new Date();
+  var start = new Date(TRIP.year, TRIP.month, TRIP.startDate);
+  var end = new Date(TRIP.year, TRIP.month, TRIP.endDate, 23, 59);
+  var t0 = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  if (now < start){
+    var diff = Math.round((start - t0)/86400000);
+    return { state:"before", day:0, daysAway:diff };
+  }
+  if (now > end){ return { state:"after", day:9 }; }
+  // within trip
+  for (var i=0;i<DAYS.length;i++){
+    var d = new Date(TRIP.year, TRIP.month, DAYS[i].dateNum);
+    if (t0.getTime() === d.getTime()) return { state:"during", day:DAYS[i].n };
+  }
+  return { state:"during", day:0 };
+}
+
+/* ---------- shared bits ---------- */
+/* status bar is now just a safe-area spacer; theme toggle is a floating control */
+function statusBar(onhero){
+  return '<div class="statusbar'+(onhero?' onhero':'')+'"></div>';
+}
+function updateToggle(){
+  var b=document.getElementById("themetoggle");
+  if(b){ b.innerHTML = theme==="dark" ? I.sunToggle : I.moon; }
+}
+function actionChips(it){
+  var out="";
+  if (it.placeId){
+    out += '<button class="chip gold" onclick="go(\'place\',{place:\''+it.placeId+'\'})">View booking'+(it.conf?' · '+esc(it.conf):'')+' '+I.chevronSm+'</button>';
+  } else if (it.conf){
+    out += '<span class="chip" style="cursor:default">'+I.check.replace('width="9" height="9"','width="11" height="11"')+' '+esc(it.conf)+'</span>';
+  }
+  if (it.map){ out += '<a class="chip" target="_blank" rel="noopener" href="'+mapsUrl(it.map)+'">'+I.pinSm+' Directions</a>'; }
+  if (it.phone){ out += '<a class="chip" href="'+telHref(it.phone)+'">'+I.phone+' Call</a>'; }
+  return out ? '<div class="chips">'+out+'</div>' : "";
+}
+
+/* ---------- screens ---------- */
+function renderItinerary(){
+  var html = statusBar(false);
+  html += '<div style="padding:14px 24px 0;">'
+    + '<div class="kicker">Anniversary · Jul 3–11, 2026</div>'
+    + '<h1 class="title" style="font-size:46px;line-height:1;margin-top:8px;">Greece</h1>'
+    + '<div style="font-size:15px;color:var(--slate);margin-top:8px;">Ethan <span style="color:var(--gold);">&amp;</span> Lindsey</div>'
+    + '<div style="margin-top:14px;font-size:12.5px;color:var(--muted);letter-spacing:.2px;line-height:1.5;">JFK<span style="color:#C0C8CE;"> › </span>Athens<span style="color:#C0C8CE;"> › </span>Santorini<span style="color:#C0C8CE;"> › </span>Mykonos<span style="color:#C0C8CE;"> › </span>Athens</div>'
+    + '</div>';
+  html += '<div class="stats"><div class="s"><b>9</b><span>Days</span></div><div class="s"><b>3</b><span>Islands</span></div><div class="s gold"><b>18</b><span>Confirmed</span></div></div>';
+
+  var ti = todayInfo();
+  var td = dayByN(ti.day);
+  var label = ti.state==="during" ? "Jump to Today · Day "+td.n : (ti.state==="before" ? "Trip starts in "+ti.daysAway+" days" : "Trip complete · recap Day 9");
+  var sub = td.sd.split("·")[0].trim()+" ·"+td.sd.split("·")[1];
+  html += '<button class="todaybtn" onclick="go(\'today\')"><span class="pulse"></span>'
+    + '<span class="lbl">'+label+'</span>'
+    + '<span class="sub">'+esc(td.dow.slice(0,3))+', Jul '+td.dateNum+'</span>'
+    + '<span style="color:#fff;display:flex;">'+I.chevronSm.replace('stroke-width="2.2"','stroke-width="2.2"')+'</span></button>';
+
+  GROUPS.forEach(function(g){
+    html += '<div class="grouphead"><span class="g1">'+esc(g.label)+'</span><span class="g2">'+esc(g.range)+'</span><span class="gl"></span></div>';
+    html += '<div class="pad16">';
+    g.days.forEach(function(n){
+      var d = dayByN(n);
+      var isToday = (ti.day===n && ti.state==="during");
+      html += '<button class="daycard'+(isToday?' today':'')+'" onclick="go(\'day\',{day:'+n+'})">'
+        + '<div class="dnum'+(isToday?' gold':'')+'"><b>'+n+'</b><span>Day</span></div>'
+        + '<div class="vline"></div>'
+        + '<div class="dmeta">'
+        + '<div class="dow">'+esc(d.sd)+(isToday?' &nbsp;<span style="font-size:9.5px;font-weight:700;letter-spacing:.8px;color:#fff;background:var(--gold);padding:2px 8px;border-radius:20px;">Today</span>':'')+'</div>'
+        + '<div class="dttl">'+esc(d.title)+'</div>'
+        + '<div class="dsum"><span class="dot"></span>'+esc(d.marquee)+'</div>'
+        + '</div>'
+        + '<span style="color:var(--muted-2);display:flex;">'+I.chevron+'</span>'
+        + '</button>';
+    });
+    html += '</div>';
+  });
+  return html;
+}
+
+function renderDay(){
+  var d = dayByN(state.day);
+  var html = '<div class="hero">'
+    + heroScene(DAY_SCENE[d.n])+'<div class="scenetint"></div><div class="fade"></div>'
+    + statusBar(true)
+    + '<button class="backbtn" onclick="go(\'itinerary\')">'+I.back+'</button>'
+    + '<div class="herocap"><div class="hk">'+esc(d.kicker)+'</div>'
+    + '<h1>'+esc(d.title)+'</h1>'
+    + '<div class="hl">'+I.pin+' <a href="'+mapsUrl(d.locMap)+'" target="_blank" rel="noopener" style="color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35);">'+esc(d.loc)+'</a></div>'
+    + '</div></div>';
+
+  if (d.advisory){
+    html += '<div class="advisory">'+I.heat.replace('width="13" height="13"','width="17" height="17"').replace('stroke="currentColor"','stroke="var(--advisory-h)"')+'<div class="t">'+esc(d.advisory)+'</div></div>';
+  }
+  if (d.sunset){
+    html += '<div class="sunsetline"><b>'+I.sun.replace('stroke="currentColor"','stroke="var(--gold)"')+'Sunset '+esc(d.sunset)+'</b><span style="width:4px;height:4px;border-radius:50%;background:var(--rule);"></span><span>plan the evening around it</span></div>';
+  }
+  html += '<div class="eyebrow" style="margin:22px 24px 2px;">Schedule</div><div style="padding:0 22px;">';
+  d.items.forEach(function(it){
+    html += '<div class="tl-item"><div class="tl-time">'+esc(it.time)+'</div><div class="tl-body">'
+      + '<div class="tl-title"><span class="nm">'+esc(it.title)+'</span>'
+      + (it.confirmed?'<span class="badge">'+I.check+'Confirmed</span>':'')+'</div>'
+      + (it.note?'<div class="tl-note">'+esc(it.note)+'</div>':'')
+      + actionChips(it)
+      + '</div></div>';
+  });
+  html += '</div>';
+  return html;
+}
+
+function renderToday(){
+  var ti = todayInfo();
+  var d = dayByN(ti.day);
+  var html = statusBar(false);
+  var headKicker = ti.state==="during" ? (d.dow+" · July "+d.dateNum) : (ti.state==="before" ? "Countdown · departs July 2" : "Trip complete");
+  var bigTitle = ti.state==="during" ? "Today" : (ti.state==="before" ? "Almost there" : "Kalispéra");
+  html += '<div style="padding:16px 24px 0;">'
+    + '<div class="kicker">'+esc(headKicker)+'</div>'
+    + '<h1 class="title" style="font-size:42px;line-height:1;margin-top:7px;">'+bigTitle+'</h1>'
+    + '<div style="display:flex;align-items:center;gap:7px;margin-top:9px;font-size:13.5px;color:var(--muted);">'+I.pin.replace('stroke="currentColor"','stroke="var(--gold)"')+esc(d.loc)+' · Day '+d.n+' of 9</div>'
+    + '</div>';
+
+  if (ti.state==="before"){
+    html += '<div class="countdown"><div class="big">'+ti.daysAway+'</div><div><div style="font-size:13px;font-weight:600;color:var(--ink);">days until Greece</div><div style="font-size:12.5px;color:var(--muted);margin-top:2px;">Here’s Day 1 so you’re ready to land running.</div></div></div>';
+  }
+
+  // Up next = first confirmed item, else first item
+  var up = d.items.filter(function(x){return x.confirmed;})[0] || d.items[0];
+  html += '<div style="margin:18px 20px 0;"><div class="eyebrow" style="margin:0 4px 8px;">'+(ti.state==="during"?"Up Next":"First Up")+'</div>'
+    + '<div class="upnext"><div class="un-top"><div class="un-time">'+esc(up.time)+'</div>'+(up.confirmed?'<div class="un-tag">Confirmed</div>':'')+'</div>'
+    + '<h3>'+esc(up.title)+'</h3>'
+    + (up.note?'<div class="un-note">'+esc(up.note)+'</div>':'')
+    + '<div class="un-actions">';
+  if (up.placeId){
+    html += '<button class="primary" onclick="go(\'place\',{place:\''+up.placeId+'\'})">View booking '+I.chevronSm+'</button>';
+  } else if (up.map){
+    html += '<a class="primary" target="_blank" rel="noopener" href="'+mapsUrl(up.map)+'">'+I.pinSm.replace('stroke="currentColor"','stroke="#3A2C12"')+' Directions</a>';
+  } else {
+    html += '<button class="primary" onclick="go(\'day\',{day:'+d.n+'})">Full day '+I.chevronSm+'</button>';
+  }
+  if (up.phone){ html += '<a class="icobtn" href="'+telHref(up.phone)+'">'+I.phone.replace('width="14" height="14"','width="19" height="19"').replace('stroke="currentColor"','stroke="#fff"')+'</a>'; }
+  html += '</div></div></div>';
+
+  // advisory + sunset
+  if (d.advisory || d.sunset){
+    html += '<div class="twocol">';
+    if (d.advisory){
+      html += '<div class="minicard"><div class="lbl" style="display:flex;align-items:center;gap:6px;color:var(--advisory-h);">'+I.heat.replace('stroke="currentColor"','stroke="var(--advisory-h)"')+'Heads up</div><div style="font-size:12.5px;color:var(--advisory-t);margin-top:5px;line-height:1.4;">'+esc(d.advisory)+'</div></div>';
+    }
+    if (d.sunset){
+      html += '<div class="minicard"><div class="lbl">Sunset</div><div class="big">'+esc(d.sunset.replace(/pm/,''))+'<span style="font-size:13px;color:var(--muted);"> pm</span></div><div style="font-size:12px;color:var(--muted);">'+esc(d.city)+'</div></div>';
+    }
+    html += '</div>';
+  }
+
+  // rest of today
+  html += '<div class="eyebrow" style="margin:22px 24px 4px;">Rest of '+(ti.state==="during"?"Today":"the Day")+'</div><div class="listcard" style="margin:0 20px;">';
+  d.items.forEach(function(it){
+    if (it===up) return;
+    html += '<div class="lrow" style="align-items:flex-start;"><div class="tl-time" style="flex:0 0 56px;">'+esc(it.time)+'</div>'
+      + '<div class="lr-main"><div class="lr-t">'+esc(it.title)+'</div>'+(it.note?'<div class="lr-s">'+esc(it.note)+'</div>':'')+'</div>'
+      + (it.map?'<a href="'+mapsUrl(it.map)+'" target="_blank" rel="noopener" style="color:var(--gold);display:flex;align-self:center;">'+I.pinSm+'</a>':'')
+      + '</div>';
+  });
+  html += '</div>';
+  html += '<button class="ghostbtn" onclick="go(\'day\',{day:'+d.n+'})">Open full day plan '+I.chevronSm+'</button>';
+  return html;
+}
+
+function renderBookings(){
+  var html = statusBar(false);
+  html += '<div style="padding:16px 24px 0;"><h1 class="title" style="font-size:34px;line-height:1;">Bookings</h1><div style="font-size:13px;color:var(--muted);margin-top:7px;">18 confirmed · BJC document #4073</div></div>';
+  html += '<div class="grouptitle">'+I.flights.replace('stroke="currentColor"','stroke="var(--gold)"')+'<span>Flights & Ferry</span></div><div class="pad16">';
+  FLIGHTS.forEach(function(f){
+    html += '<div class="bk"><div class="bk-top"><span class="seg">'+esc(f.seg)+'</span><span class="pill '+f.clsType+'">'+esc(f.cls)+'</span></div>'
+      + '<div class="route"><span class="iata">'+esc(f.from)+'</span>'+I.plane+'<span class="iata">'+esc(f.to)+'</span></div>'
+      + '<div class="det"><span>'+esc(f.det)+'</span></div><div class="ref">'+esc(f.ref)+'</div></div>';
+  });
+  html += '</div>';
+  html += '<div class="grouptitle">'+I.bed.replace('stroke="currentColor"','stroke="var(--gold)"')+'<span>Stays</span></div><div class="pad16">';
+  STAYS.forEach(function(s){
+    html += '<div class="bk"><div class="stayname">'+esc(s.name)+'</div><div class="staysub">'+esc(s.sub)+'</div>'
+      + '<div class="det"><span>'+esc(s.dates)+'</span><span class="ref">'+esc(s.ref)+'</span></div>'
+      + '<div class="chips"><a class="chip" target="_blank" rel="noopener" href="'+mapsUrl(s.map)+'">'+I.pinSm+' Directions</a></div></div>';
+  });
+  html += '</div>';
+  html += '<div class="grouptitle">'+I.car.replace('stroke="currentColor"','stroke="var(--gold)"')+'<span>Transfers & VIP</span></div><div class="listcard">';
+  TRANSFERS.forEach(function(t){
+    html += '<div class="lrow"><div class="lr-main"><div class="lr-t">'+esc(t.t)+'</div><div class="lr-s">'+esc(t.s)+'</div></div><span class="lr-ref">'+esc(t.ref)+'</span></div>';
+  });
+  html += '</div>';
+  return html;
+}
+
+function renderInfo(){
+  var html = statusBar(false);
+  html += '<div style="padding:16px 24px 0;"><h1 class="title" style="font-size:34px;line-height:1;">Essentials</h1><div style="font-size:13px;color:var(--muted);margin-top:7px;">Addresses, contacts & confirmations</div></div>';
+  html += '<div class="emergency"><div class="eh">Emergency · Greece</div><div class="erow">'
+    + '<a href="tel:112"><b>112</b><span>All emergencies</span></a>'
+    + '<a href="tel:1571"><b>1571</b><span>Tourist Police</span></a>'
+    + '</div></div>';
+
+  html += '<div class="grouptitle"><span>Where You’re Staying</span></div><div class="pad16">';
+  var ti = todayInfo();
+  STAYS.forEach(function(s, idx){
+    // mark "now" if during trip and this stay covers today (simple heuristic by index/day)
+    var isNow = false;
+    if (ti.state==="during"){
+      if (ti.day<=2 && idx===0) isNow=true;
+      else if (ti.day>=3 && ti.day<=5 && idx===1) isNow=true;
+      else if (ti.day>=6 && ti.day<=7 && idx===2) isNow=true;
+      else if (ti.day>=8 && idx===3) isNow=true;
+    }
+    html += '<div class="stay'+(isNow?' now':'')+'"><div style="display:flex;justify-content:space-between;align-items:center;"><div class="sname">'+esc(s.name)+'</div>'+(isNow?'<span style="font-size:9.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:#fff;background:var(--gold);padding:2px 8px;border-radius:20px;">Now</span>':'')+'</div>'
+      + '<div class="staysub" style="margin-top:3px;">'+esc(s.sub)+'</div>'
+      + '<div style="display:flex;justify-content:space-between;align-items:center;margin-top:9px;"><span style="font-size:12px;color:var(--slate);">'+esc(s.dates)+'</span><span class="lr-ref">'+esc(s.ref)+'</span></div>'
+      + '<div class="chips"><a class="chip" target="_blank" rel="noopener" href="'+mapsUrl(s.map)+'">'+I.pinSm+' Directions</a></div></div>';
+  });
+  html += '</div>';
+
+  html += '<div class="grouptitle"><span>Day-of Contacts</span></div><div class="listcard">';
+  CONTACTS.forEach(function(c){
+    html += '<a class="lrow" href="'+telHref(c.phone)+'"><div class="lr-main"><div class="lr-t">'+esc(c.t)+'</div><div class="lr-s">'+esc(c.s)+'</div></div><span style="color:var(--gold);display:flex;">'+I.phone.replace('width="14" height="14"','width="17" height="17"')+'</span></a>';
+  });
+  html += '</div>';
+
+  html += '<div class="grouptitle"><span>Restaurant Lines</span></div><div class="listcard">';
+  DINING.forEach(function(r){
+    html += '<a class="lrow" style="justify-content:space-between;" href="'+telHref(r.phone)+'"><span class="lr-t">'+esc(r.t)+'</span><span class="lr-s" style="font-family:var(--mono);">'+esc(r.ph)+'</span></a>';
+  });
+  html += '</div>';
+
+  // live weather (today's city) — fetched on load, graceful offline fallback
+  html += '<div class="grouptitle"><span>Today’s Weather</span></div><div class="pad16">'
+    + '<div class="card" style="padding:15px 17px;display:flex;align-items:center;gap:15px;">'
+    + '<div id="wxIcon" style="flex:0 0 auto;color:var(--gold);">' + wxGlyph("clear") + '</div>'
+    + '<div style="flex:1;min-width:0;"><div style="display:flex;align-items:baseline;gap:8px;"><span id="wxTemp" style="font-family:var(--serif);font-size:30px;color:var(--navy);line-height:1;">—</span><span id="wxCity" style="font-size:13px;color:var(--muted);"></span></div>'
+    + '<div id="wxCond" style="font-size:13px;color:var(--muted);margin-top:3px;">Loading…</div></div>'
+    + '</div></div>';
+
+  // euro <-> dollar converter (live ECB rate via Frankfurter, cached)
+  html += '<div class="grouptitle"><span>Euro ⇄ Dollar</span></div><div class="pad16">'
+    + '<div class="card" style="padding:15px 17px;">'
+    + '<div style="display:flex;align-items:flex-end;gap:10px;">'
+    + '<div style="flex:1;"><div style="font-size:11px;color:var(--muted-2);text-transform:uppercase;letter-spacing:.6px;margin-bottom:4px;">Euro €</div>'
+    + '<input id="cvEur" type="text" inputmode="decimal" value="1" oninput="convFrom(\'eur\')" style="width:100%;font:inherit;font-size:18px;font-weight:600;color:var(--ink);background:var(--bg);border:1px solid var(--border);border-radius:11px;padding:10px 12px;"></div>'
+    + '<div style="flex:0 0 auto;color:var(--gold-2);padding-bottom:10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8h13l-3-3M17 16H4l3 3"/></svg></div>'
+    + '<div style="flex:1;"><div style="font-size:11px;color:var(--muted-2);text-transform:uppercase;letter-spacing:.6px;margin-bottom:4px;">Dollar $</div>'
+    + '<input id="cvUsd" type="text" inputmode="decimal" oninput="convFrom(\'usd\')" style="width:100%;font:inherit;font-size:18px;font-weight:600;color:var(--ink);background:var(--bg);border:1px solid var(--border);border-radius:11px;padding:10px 12px;"></div>'
+    + '</div><div id="cvRate" style="font-size:12px;color:var(--muted);margin-top:11px;">Loading rate…</div>'
+    + '</div></div>';
+
+  html += '<div class="grouptitle"><span>Good to Know</span></div><div class="grid2">'
+    + '<div class="infocell"><div class="lbl">Currency</div><div class="val">Euro · €</div></div>'
+    + '<div class="infocell"><div class="lbl">Power</div><div class="val">Type C/F · 230V</div></div>'
+    + '<div class="infocell"><div class="lbl">Tipping</div><div class="val">~5–10%</div></div>'
+    + '<div class="infocell"><div class="lbl">Water</div><div class="val">Bottled on islands</div></div>'
+    + '</div>';
+  return html;
+}
+
+/* ---------- live widgets: weather + currency (Essentials) ---------- */
+var WX_CITY = {
+  Athens:    { name:"Athens",    lat:37.9838, lon:23.7275 },
+  Santorini: { name:"Santorini", lat:36.4072, lon:25.4566 },
+  Mykonos:   { name:"Mykonos",   lat:37.4467, lon:25.3289 }
+};
+function weatherCityForToday(){
+  var ti = todayInfo();
+  if (ti.state === "during"){
+    var c = dayByN(ti.day).city;
+    if (c === "Departure") c = "Athens";
+    return WX_CITY[c] || WX_CITY.Athens;
+  }
+  return WX_CITY.Athens;
+}
+function wmo(code){
+  if (code===0) return {label:"Clear sky", kind:"clear"};
+  if (code===1||code===2) return {label:"Partly cloudy", kind:"pcloud"};
+  if (code===3) return {label:"Overcast", kind:"cloud"};
+  if (code===45||code===48) return {label:"Fog", kind:"fog"};
+  if (code>=51&&code<=57) return {label:"Drizzle", kind:"rain"};
+  if (code>=61&&code<=67) return {label:"Rain", kind:"rain"};
+  if (code>=71&&code<=77) return {label:"Snow", kind:"snow"};
+  if (code>=80&&code<=82) return {label:"Showers", kind:"rain"};
+  if (code>=95) return {label:"Thunderstorm", kind:"storm"};
+  return {label:"—", kind:"clear"};
+}
+function wxGlyph(kind){
+  var g='<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">';
+  if (kind==="clear") return g+'<circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M5.2 5.2l1.7 1.7M17.1 17.1l1.7 1.7M18.8 5.2l-1.7 1.7M6.9 17.1l-1.7 1.7"/></svg>';
+  if (kind==="pcloud") return g+'<circle cx="8" cy="8" r="3"/><path d="M9 5.5l1.2 1.2M5 4v1.7M4 9H2.3"/><path d="M8 19h9a3.5 3.5 0 0 0 .3-7A5 5 0 0 0 8 13" /></svg>';
+  if (kind==="cloud") return g+'<path d="M7 18h10a3.5 3.5 0 0 0 .3-7A5.2 5.2 0 0 0 7 12a3 3 0 0 0 0 6z"/></svg>';
+  if (kind==="rain") return g+'<path d="M7 15h10a3.5 3.5 0 0 0 .3-7A5.2 5.2 0 0 0 7 9a3 3 0 0 0 0 6z"/><path d="M8 18l-1 2M12 18l-1 2M16 18l-1 2"/></svg>';
+  if (kind==="storm") return g+'<path d="M7 14h10a3.5 3.5 0 0 0 .3-7A5.2 5.2 0 0 0 7 8a3 3 0 0 0 0 6z"/><path d="M12 16l-2 3h3l-2 3"/></svg>';
+  if (kind==="snow") return g+'<path d="M7 14h10a3.5 3.5 0 0 0 .3-7A5.2 5.2 0 0 0 7 8a3 3 0 0 0 0 6z"/><path d="M9 18h.01M12 19h.01M15 18h.01"/></svg>';
+  if (kind==="fog") return g+'<path d="M4 9h13a3 3 0 0 0 0-6 4.5 4.5 0 0 0-8.5-1"/><path d="M3 14h15M5 18h13"/></svg>';
+  return g+'</svg>';
+}
+function setTxt(id,v){ var e=document.getElementById(id); if(e) e.textContent=v; }
+function paintWeather(d, cached){
+  if(!d){ setTxt("wxTemp","—"); setTxt("wxCond", navigator.onLine?"Weather unavailable":"Offline — connect for weather"); return; }
+  var w = wmo(d.code);
+  setTxt("wxTemp", d.t + "°F");
+  setTxt("wxCond", w.label + (cached ? " · last update" : ""));
+  var ic=document.getElementById("wxIcon"); if(ic) ic.innerHTML = wxGlyph(w.kind);
+}
+function loadWeather(){
+  var city = weatherCityForToday();
+  setTxt("wxCity", "· " + city.name);
+  var cached=null; try{ cached=JSON.parse(lsGet("greece_wx_"+city.name)||"null"); }catch(e){}
+  if(cached) paintWeather(cached, true);
+  var url="https://api.open-meteo.com/v1/forecast?latitude="+city.lat+"&longitude="+city.lon+"&current_weather=true&temperature_unit=fahrenheit";
+  fetch(url).then(function(r){return r.json();}).then(function(j){
+    var cw = j.current_weather || (j.current ? {temperature:j.current.temperature_2m, weathercode:j.current.weather_code} : null);
+    if(!cw) throw 0;
+    var d={ t:Math.round(cw.temperature), code:cw.weathercode, ts:Date.now() };
+    lsSet("greece_wx_"+city.name, JSON.stringify(d));
+    paintWeather(d, false);
+  }).catch(function(){ if(!cached) paintWeather(null, false); });
+}
+var RATE = null;
+function convFrom(which){
+  if(!RATE) return;
+  var e=document.getElementById("cvEur"), u=document.getElementById("cvUsd");
+  if(!e||!u) return;
+  if(which==="eur"){ var v=parseFloat(e.value); u.value = isFinite(v) ? (v*RATE).toFixed(2) : ""; }
+  else { var v2=parseFloat(u.value); e.value = isFinite(v2) ? (v2/RATE).toFixed(2) : ""; }
+}
+window.convFrom = convFrom;
+function setRate(rate, date, cached){
+  RATE = rate;
+  var lbl=document.getElementById("cvRate");
+  if(lbl) lbl.textContent = "1 € = $" + rate.toFixed(4) + " · ECB " + date + (cached ? " (cached)" : "");
+  convFrom("eur");
+}
+function loadRate(){
+  var cached=null; try{ cached=JSON.parse(lsGet("greece_rate")||"null"); }catch(e){}
+  if(cached && cached.rate) setRate(cached.rate, cached.date, true);
+  fetch("https://api.frankfurter.dev/v1/latest?base=EUR&symbols=USD").then(function(r){return r.json();}).then(function(j){
+    var rate = j && j.rates && j.rates.USD;
+    if(!rate) throw 0;
+    lsSet("greece_rate", JSON.stringify({rate:rate, date:j.date}));
+    setRate(rate, j.date, false);
+  }).catch(function(){ if(!cached){ var lbl=document.getElementById("cvRate"); if(lbl) lbl.textContent = "Rate unavailable offline — enter values manually"; } });
+}
+function initInfoWidgets(){ loadWeather(); loadRate(); }
+
+function renderPlace(){
+  var p = PLACES[state.place] || PLACES.hike;
+  var html = '<div class="hero short">'+heroScene("caldera")+'<div class="scenetint"></div><div class="fade"></div>'
+    + statusBar(true)
+    + '<button class="backbtn" onclick="go(\'day\',{day:4})">'+I.back+'</button>'
+    + '<div class="herocap"><div class="hk">'+esc(p.kicker)+'</div><h1 style="font-size:30px;">'+esc(p.title)+'</h1></div></div>';
+  html += '<div style="display:flex;align-items:center;gap:8px;margin:16px 24px 0;">'
+    + (p.confirmed?'<span class="badge" style="padding:3px 9px;">'+I.check.replace('width="9" height="9"','width="10" height="10"')+'Confirmed</span>':'')
+    + '<span class="conf">'+esc(p.conf||"")+'</span></div>';
+  html += '<div class="pchips">';
+  p.facts.forEach(function(f){ html += '<div class="infocell"><div class="lbl">'+esc(f[0])+'</div><div class="val">'+esc(f[1])+'</div></div>'; });
+  html += '</div>';
+  html += '<div class="pbox"><div class="lbl">'+esc(p.meetingLabel)+'</div><div style="font-size:14.5px;font-weight:600;color:var(--ink);margin-top:6px;">'+esc(p.meeting)+'</div><div style="font-size:13px;color:var(--muted);margin-top:3px;line-height:1.5;">'+esc(p.meetingNote)+'</div></div>';
+  html += '<div class="pbox bring"><div class="lbl">What to bring</div><div style="margin-top:9px;display:flex;flex-direction:column;gap:7px;">';
+  p.bring.forEach(function(b){ html += '<div class="bringitem"><span style="width:6px;height:6px;border-radius:50%;background:var(--gold-2);"></span>'+esc(b)+'</div>'; });
+  html += '</div><div style="font-size:12.5px;color:var(--advisory-t);margin-top:11px;line-height:1.45;border-top:1px solid var(--advisory-bd);padding-top:10px;">'+esc(p.bringNote)+'</div></div>';
+  html += '<a class="mapbtn" target="_blank" rel="noopener" href="'+mapsUrl(p.map)+'"><div class="stripes"></div><div class="lab">'+I.pinSm.replace('stroke="currentColor"','stroke="currentColor"')+' OPEN IN MAPS · '+esc(p.mapLabel)+'</div></a>';
+  html += '<div class="twobtns"><a class="solid" href="'+telHref(p.phone)+'">'+I.phone.replace('width="14" height="14"','width="17" height="17"').replace('stroke="currentColor"','stroke="#fff"')+' Call guide</a>'
+    + '<a class="outline" href="mailto:'+esc(p.email)+'">'+I.mail+' Email</a></div>';
+  return html;
+}
+
+/* ---------- tab bar ---------- */
+function renderTabs(){
+  var s = state.screen;
+  var itinActive = (s==="itinerary"||s==="day"||s==="place");
+  function tab(scr,active,icon,label){
+    return '<button class="tab'+(active?' active':'')+'" onclick="go(\''+scr+'\')">'+icon+'<span>'+label+'</span></button>';
+  }
+  return tab("itinerary", itinActive, I.tabItin, "Itinerary")
+    + tab("today", s==="today", I.tabToday, "Today")
+    + tab("bookings", s==="bookings", I.tabBook, "Bookings")
+    + tab("info", s==="info", I.tabInfo, "Info");
+}
+
+/* ---------- main render ---------- */
+function render(){
+  var el = document.getElementById("screen");
+  var s = state.screen, html="";
+  if (s==="itinerary") html=renderItinerary();
+  else if (s==="day") html=renderDay();
+  else if (s==="today") html=renderToday();
+  else if (s==="bookings") html=renderBookings();
+  else if (s==="info") html=renderInfo();
+  else if (s==="place") html=renderPlace();
+  else html=renderItinerary();
+  el.innerHTML = html;
+  document.getElementById("tabbar").innerHTML = renderTabs();
+  updateToggle();
+  if (s === "info") initInfoWidgets();
+  // meta theme-color follows mode
+  var mc=document.querySelector('meta[name="theme-color"]'); if(mc) mc.setAttribute("content", theme==="dark"?"#0A1B28":"#0F3450");
+}
+
+render();
+</script>
+</body>
+</html>
